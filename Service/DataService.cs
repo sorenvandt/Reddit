@@ -37,6 +37,7 @@ public class DataService
             db.Posts.Add(new Post { Title = "Hvordan gør man", Content = "Jeg har længe forsøgt at investere men har brug for hjælp", User = user });
         }
 
+
         db.SaveChanges();
     }
 

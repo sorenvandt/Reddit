@@ -6,7 +6,7 @@ namespace Model
     {
         [Key]
         public int CommentId { get; set; }
-        public int Comment {  get; set; }
+        public string Comment {  get; set; }
 
         // Fremmednøgle til brugeren, der har oprettet kommentaren
         public int UserId { get; set; }
